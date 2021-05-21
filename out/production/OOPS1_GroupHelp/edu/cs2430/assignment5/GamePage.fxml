@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500" prefWidth="500" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.cs2430.assignment5.GUIController">
+   <children>
+      <Button fx:id="hitbtn" layoutX="404.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnHit" text="HIT" />
+      <Button fx:id="staybtn" layoutX="399.0" layoutY="225.0" mnemonicParsing="false" onAction="#btnStay" text="STAY" />
+      <Button fx:id="quitbtn" layoutX="214.0" layoutY="446.0" mnemonicParsing="false" onAction="#btnQuit" text="QUIT" />
+      <Label fx:id="playerHand" layoutX="214.0" layoutY="311.0" text="Players Hand " />
+      <Label fx:id="dealersHand" layoutX="205.0" layoutY="55.0" text="Dealers Hand" />
+      <Label fx:id="Deck" layoutX="380.0" layoutY="42.0" prefHeight="27.0"
+             prefWidth="52.0" text="Deck">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="startbtn" layoutX="226.0" layoutY="371.0" mnemonicParsing="false" onAction="#setUp" text="START" />
+   </children>
+</AnchorPane>
